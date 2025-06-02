@@ -1,0 +1,30 @@
+def docx_to_txt(docx_path, txt_path):
+    # Load the document
+    doc = Document("./ name_of_file.docx")
+
+    #Extract text from all paragraphs
+    full_text = []
+    for para in doc.paragraphs:
+        full_text.append(para.text)
+
+    # JOin paragraphs with the newline characters
+    text = "\n".join(full_text)
+
+    #write to a .txt file 
+    with open(txt_path, 'w', encoding="utf-8") as txt_file:
+        txt_file.write(text)
+
+if __name__ == "__main__":
+    docx_file = './name_of_docx.docx' #input file path
+    txt_file = "name_of_txt.txt" #desired name of output txt
+    docx_to_txt(docx_file, txt_file)
+    print(f"Converted '{docx_file}' to '{txt_file}' successfully")
+    
+    """
+    Convert to DOCX to TXT using pyhton-docx library
+    Args:
+        docx_path (str): Path to the input DOCX file
+        txt_path (str): Path for the output TXT file (optional)
+    Returns:
+           Str: Extracted text content
+    """
