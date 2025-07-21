@@ -1,3 +1,14 @@
+#DOCUMENT (DOCX) TO TEXT (TXT) CONVERTER IN JUPYTER NOTEBOOK (.IPYNB/.PY)
+
+# Method 1: Using python-docx (Recommended)
+# First install the required library:
+#!pip install python-docx (Run this code only if you don't have python-docx install in your environment)
+
+#IMPORT THE NECESSARY LIBRARIES
+from docx import Document
+import os
+
+#WRITE CODE
 def docx_to_txt(docx_path, txt_path):
     # Load the document
     doc = Document("./ name_of_file.docx")
@@ -7,7 +18,7 @@ def docx_to_txt(docx_path, txt_path):
     for para in doc.paragraphs:
         full_text.append(para.text)
 
-    # JOin paragraphs with the newline characters
+    # Join paragraphs with the newline characters
     text = "\n".join(full_text)
 
     #write to a .txt file 
@@ -19,12 +30,3 @@ if __name__ == "__main__":
     txt_file = "name_of_txt.txt" #desired name of output txt
     docx_to_txt(docx_file, txt_file)
     print(f"Converted '{docx_file}' to '{txt_file}' successfully")
-    
-    """
-    Convert to DOCX to TXT using pyhton-docx library
-    Args:
-        docx_path (str): Path to the input DOCX file
-        txt_path (str): Path for the output TXT file (optional)
-    Returns:
-           Str: Extracted text content
-    """
