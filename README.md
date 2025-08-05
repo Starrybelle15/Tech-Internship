@@ -1,36 +1,39 @@
 IDEA/OMEIFE INTERNSHIP - TEAM FOUR 
 
-📌 Overview
-This repository contains the work completed by Team Four during our 3-months internship period with OMEIFEI DIGITAL GROUP OF COMPANIES.
+GENERAL 📌 OVERVIEW 
+This GitHub repository contains a compilation of all the work completed by Team Four during our 3-months internship period with OMEIFEI DIGITAL GROUP OF COMPANIES.
+
 One of our main focus during the period of the intership was medically related data gathering; 
 We also went through the process of building a chatbot which was meant to answer questions and give non-critical advice, the model was fine-tuned to enable it respond better to questions asked.
 This GitHub repository has an inclusion of the following:
-1. Datasets some of which were used to build the chatbot,
-2. Data processing notebooks
+1. Datasets, some of which were used to build the chatbot
+2. Data processing notebooks, which also includes a document (.docx) to text (.txt) converter 
 3. 
-4. Documentation of our research process.
+4. Documentation of our entire research process, from the first data gathering task to the build of the chatbot.
 
 🩺 Internship Task
 We were tasked with:
 
-Gathering high-quality medical text datasets in multiple specialties.
-Preprocessing and cleaning these datasets for machine learning.
-Experimenting with fine-tuning large language models (LLMs) to create non-critical medical chatbots.
-Documenting our data gathering process and findings.
+1. Gathering high-quality medical text datasets in multiple specialties.
+2. Preprocessing and cleaning these datasets for machine learning.
+3. Experimenting with fine-tuning large language models (LLMs) to create non-critical medical chatbots.
+4. Documenting our data gathering process and findings.
+
 💡 Purpose of Data Gathering
 Medical chatbots require domain-specific datasets to:
 
-Answer questions accurately within their field.
-Offer safe, non-critical advice and guidance.
-Identify cases that require escalation to a doctor. Our goal was to collect specialized datasets so future AI models can give clear, factual, and patient-friendly responses.
+1. Answer questions accurately within their field.
+2. Offer safe, non-critical advice and guidance.
+3. Identify cases that require escalation to a doctor. Our goal was to collect specialized datasets so future AI models can give clear, factual, and patient-friendly responses.
+
 🛠 Process & Challenges
 1. Data Collection
 We gathered five datasets across different medical specialties:
 
-Allergy & Immunology.docx
-Questions and Answers under Cardiology.docx
-Hematology and Oncology.docx
-Pediatric Pulmonology.docx
+a. CARDIOLOGY.docx
+b. ENDOCRINOLOGY.docx (part 1 & 2)
+c. OPHTHALMOLOGY.docx
+d. OTORHINOLARYNGOLOGY.docx
 Oncology.docx
 Each dataset was placed in the Datasets/ folder.
 Our data gathering report is stored in the Documentation/ folder.
