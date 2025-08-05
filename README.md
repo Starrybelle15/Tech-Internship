@@ -41,6 +41,7 @@ Each dataset was placed in the Datasets/ folder.
 Our data gathering report is stored in the Documentation/ folder.
 
 CHALLENEGS THAT WERE FACED DURING THE GATHERING PROCESS OF THE AFORE MENTIONED DATASETS:
+
 Some challenges were faced during the process of collecting datasets from the different medical specialties, listed below are some of the challenges that were faced. They include: 
 1. Limited updated guidelines for certain rare diseases (e.g. Popcorn lungs), which then meant that we had to combine older studies with recent meta-analyses to enable sufficient information was collected on those diseases.
 2. Region-specific data gaps: Many prevalence studies focused on North America and Europe, with very limited coverage for Africa and the Sub-Saharan region.
@@ -50,6 +51,7 @@ Some challenges were faced during the process of collecting datasets from the di
 6. Hospital-based bias: Many studies were based on hospital websites instead of being based on population and statistics report, which thereby has limited our generalizability.
 
 WAYS BY WHICH WE OVERCAME THE AFOREMENTIONED CHALLENGES 
+
 Written below are the ways by which we overcame the challenges we faced during the process of gathering data.
 
 We:
@@ -60,7 +62,8 @@ We:
 5. Standardized terminology and diagnostic definitions across all datasets to improve consistency.
 6. Focused on patient-friendly summaries without losing medical accuracy.
 
-2. Data Preprocessing
+THE PROCESS OF DATA-PREPROCESSING
+
 We:
 1. Converted .docx datasets into plain text.
 2. Removed duplicate and irrelevant entries.
@@ -70,7 +73,8 @@ We:
 6. Created the notebook Pedbot.ipynb (stored in the Medbot folder).
 7. Tested multiple model sizes, including TinyLlama-1.1B for CPU training.
 
-4. Challenges & Solutions:
+CHALLENGES AND THE SOLUTIONS
+
 1. Model training on CPU was extremely slow: We optimized with smaller models and LoRA.
 2. Limited RAM: We reduced dataset size during debugging and testing.
 3. Tokenizer padding issues: Fixed by setting pad_token for LLaMA-based models.
