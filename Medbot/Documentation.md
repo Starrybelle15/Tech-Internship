@@ -61,8 +61,7 @@ Public access via web
 Integration with GitHub
 
 Your chatbot is now live at:
-php-template
-https://huggingface.co/spaces/QueenS5Ella/Royalty
+link to huggingface repo: https://huggingface.co/spaces/QueenS5Ella/Royalty
 
 6. 🛡️ Limitations & Ethical Considerations
 Not a Medical Device:
