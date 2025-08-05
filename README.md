@@ -1,4 +1,4 @@
-IDEA/OMEIFE INTERNSHIP - TEAM FOUR 
+IDEAS/OMEIFE INTERNSHIP - TEAM FOUR 
 
 GENERAL 📌 OVERVIEW 
 This GitHub repository contains a compilation of all the work completed by Team Four during our 3-months internship period with OMEIFEI DIGITAL GROUP OF COMPANIES.
@@ -8,8 +8,7 @@ We also went through the process of building a chatbot which was meant to answer
 This GitHub repository has an inclusion of the following:
 1. Datasets, some of which were used to build the chatbot
 2. Data processing notebooks, which also includes a document (.docx) to text (.txt) converter 
-3. 
-4. Documentation of our entire research process, from the first data gathering task to the build of the chatbot.
+3. Documentation of our entire research process, from the first data gathering task to the build of the chatbot.
 
 🩺 Internship Task
 We were tasked with:
@@ -70,6 +69,33 @@ We:
 2. Limited RAM: We reduced dataset size during debugging and testing.
 3. Tokenizer padding issues: Fixed by setting pad_token for LLaMA-based models.
 4. Loss computation errors: Solved by adding labels during tokenization.
+
+📚 Reliable Sources Used for Data Gathering Mayo Clinic:
+1. PubMed Central (PMC)
+2. National Institutes of Health (NIH)
+3. World Health Organization (WHO)
+4. Mayo Clinic
+5. Clinical guidelines and educational materials from National Institute of Health (NIH, etc.
+6. Additional reputable medical platforms including Medscape and Cleveland Clinic were used
+
+🧪 2. Methodology Used to gather the data:
+Keywords: definition, epidemiology, causes, risk factors, etc of the various diseases
+Selected: Review articles, meta-analyses, clinical practice guidelines, and patient education content.
+Cross-verified data across sources.
+
+Extracted:
+Definitions, symptoms, causes, risk factors, diagnosis, treatment, prevention, FAQs, epidemiology, prevention, complications.
+
+💾 File Format and Size of Microsoft Word .docx that were created during the period of this internship which was later converted to .txt for model integration. They include:
+1. ENDOCRINOLOGY Part 1.docx - 5.3MB
+2. ENDOCRINOLOGY Part 2.docx - 721KB
+3. Ophthalmology (EYE AND VISION).docx - 6.7MB
+4. OTORHINOLARYNGOLOGY.docx - 4.9MB
+5. OTORHINOLARYNGOLOGY Part 2.docx - 4.7MB (might be heavier)
+6. OTORHINOLARYNGOLOGY Part 3.docx - 4.6MB
+7. OTORHINOLARYNGOLOGY Part 4.docx - 4MB
+8. OTORHINOLARYNGOLOGY Part 5.docx - 126KB
+9. Team 4 Congenital heart diseases.docx - 2.5MB
 
 📊 Outcome – Skills & Discoveries
 During this project, we gained hands-on experience in:
