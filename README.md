@@ -138,5 +138,8 @@ README.md # Main repository summary
 
 A special thanks to OMEIFEI DIGITAL GROUP OF COMPANIES for providing this internship opportunity, the guidance, and the resources to enable me improve my knowledge base.
 
+⚕️💊🩺 PEDIATRIC PULMONOLOGY MEDICAL CHATBOT 
+
 About:
+
 The pediatric pulmonology medical chatbot that was built is meant to offer non-critical advice when made aware of patients symptoms, and answer any questions related pediatric pulmonology.
