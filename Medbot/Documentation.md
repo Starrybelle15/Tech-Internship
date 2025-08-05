@@ -1,86 +1,95 @@
 📄 Documentation Report: Pediatric Pulmonology Medical Chatbot
-1. ✅ Project Overview
-Title:
-A Pediatric Pulmonology Medical Chatbot
+
+1. ✅ OVERVIEW OF THE PROJECT
+Title: A Pediatric Pulmonology Medical Chatbot
 
 Objective:
 To develop a conversational AI assistant that provides informative, medically relevant responses related to pediatric pulmonary conditions such as asthma, bronchiolitis, cystic fibrosis, and pneumonia, based on structured and curated medical data.
 
-2. 📂 Data Collection
+2. 📂 DATA COLLECTION
+
 Data Source:
 The chatbot was trained on a set of plain-text .txt files containing:
-Disease definitions
-Symptoms
-Red flags
-Treatment guidelines
-General advice
+1.Disease definitions
+2. Symptoms
+3. Red flags
+4. Treatment guidelines
+5. General advice
 
 These files were manually curated and sourced from:
-Pediatric pulmonology textbooks
-Publicly available medical guidelines (e.g., CDC, WHO)
-Verified medical websites and publications
+1. Pediatric pulmonology textbooks
+2. Publicly available medical guidelines (e.g., CDC, WHO)
+3. Verified medical websites and publications
 
-Data Preprocessing:
-Merged the two .txt files into a one structured dataset knowledge base.
-Cleaned for consistency: removed line breaks, standardized medical terms.
+DATA PREPROCESSING:
+1. Merged the two .txt files into a one structured dataset knowledge base.
+2. Cleaned for consistency: removed line breaks, standardized medical terms.
+
 Categorized into:
-definition
-symptoms
-red_flags
-advice
+1. definition
+2. symptoms
+3. red_flags
+4. advice
 
-3. 🧠 Model Architecture
+3. 🧠 MODEL ARCHITECTURE
+
 Model Used:
-spaCy TextCategorizer (for intent detection)
-Rule-based Classifier (fallback)
+1. spaCy TextCategorizer (for intent detection)
+2. Rule-based Classifier (fallback)
+
 No deep learning or large language models were trained from scratch.
+
 Simple logic maps user queries to conditions using classification and keyword-based rules.
 
 spaCy Pipeline:
 Pretrained en_core_web_trf transformer model (based on RoBERTa)
+
 Custom categories for:
-Asthma
-Bronchiolitis
-Pneumonia
-Cystic Fibrosis
-Others
+1. Asthma
+2. Bronchiolitis
+3. Pneumonia
+4. Cystic Fibrosis
+5. Others
 
 Intent Prediction:
 Input text → spaCy → TextCategorizer → Predicted condition with confidence score
 
-4. 🌐 Gradio Integration
-Why Gradio?
-Easy interface for non-developers
-Instant deployment in notebooks
-Native support for markdown & chat history
+4. 🌐 INTEGRATION OF GRADIO IN THE CHATBOT
 
-5. 🤗 Deployment on Hugging Face Spaces
-Why Hugging Face Spaces?
-Free hosting for AI demos
-Public access via web
-Integration with GitHub
+Why Gradio?:
+1. Easy interface for non-developers
+2. Instant deployment in notebooks
+3. Native support for markdown & chat history
 
-Your chatbot is now live at:
+6. 🤗 DEPLOYMENT ON HUGGING FACE SPACES
+
+Why Hugging Face Spaces?:
+1. Free hosting for AI demos
+2. Public access via web
+3. Integration with GitHub
+
+The chatbot is now live at:
 link to huggingface repo: https://huggingface.co/spaces/QueenS5Ella/Royalty
 
-6. 🛡️ Limitations & Ethical Considerations
+7. 🛡️ LIMITATIONS AND ETHICAL CONSIDERATIONS
+
 Not a Medical Device:
-This chatbot does not provide diagnoses.
-It’s intended for informational and educational purposes only.
-Should not be used as a replacement for a licensed pediatric pulmonologist.
+1. This chatbot does not provide diagnoses.
+2. It’s intended for informational and educational purposes only.
+3. Should not be used as a replacement for a licensed pediatric pulmonologist.
 
 Limitations:
-Only recognizes predefined conditions.
-No real-time symptom analysis.
-Does not support multi-turn complex reasoning.
+1. Only recognizes predefined conditions.
+2. No real-time symptom analysis.
+3. Does not support multi-turn complex reasoning.
 
-7. 📈 Future Improvements I Plan on Making to the Chatbot:
-Integration with OpenAI GPT or a fine-tuned LLM for better generalization.
-Voice interface for accessibility.
-Rich UI with links to trusted sources (e.g., AAP, Mayo Clinic).
-Expand to other pediatric specialties (e.g., cardiology, neurology).
+8. 📈 FUTURE IMPROVEMENT I PLAN ON MAKING TO THE CHATBOT:
+1. Integration with OpenAI GPT or a fine-tuned LLM for better generalization.
+2. Voice interface for accessibility.
+3. Rich UI with links to trusted sources (e.g., AAP, Mayo Clinic).
+4. Expand to other pediatric specialties (e.g., cardiology, neurology).
 
-9. 👨‍🔬 Sample Interaction
+9. 👨‍🔬 SAMPLE OF AN INTERACTION WITH THE CHATBOT
 User: My 2-year-old has a persistent cough and wheezing.
 
 Bot: Possible Condition: Asthma (Confidence: 0.88)
@@ -88,17 +97,20 @@ Bot: Possible Condition: Asthma (Confidence: 0.88)
 Definition: Asthma is a chronic lung condition that causes inflammation and narrowing of the airways...
 
 Common Symptoms:
-Cough (especially at night)
-Wheezing
-Shortness of breath
+1. Cough (especially at night)
+2. Wheezing
+3. Shortness of breath
 
 Red Flags (Seek urgent care if these appear):
-Blue lips or face
-Severe difficulty breathing
+1. Blue lips or face
+2. Severe difficulty breathing
 
 General Advice:
-Avoid known allergens
-Ensure medication adherence
+1. Avoid known allergens
+2. Ensure medication adherence
 
 ✅ Conclusion
-This chatbot serves as a helpful assistant for parents, caregivers, or students learning about pediatric lung conditions. While it's not a replacement for medical advice, it bridges the gap between unstructured web searching and professional consultation.
+
+This chatbot only serves as a helpful assistant for parents, caregivers, or students learning about pediatric lung conditions. 
+
+While it's not a replacement for medical advice, it does help to somehow bridge the gap between unstructured web searching and professional consultation.
