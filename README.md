@@ -13,7 +13,7 @@ This GitHub repository has an inclusion of the following:
 2. Data processing notebooks, which also includes a document (.docx) to text (.txt) converter 
 3. Documentation of our entire research process, from the first data gathering task to the build of the chatbot.
 
-🩺 TASKS THAT WERE GIVEN TO BE CARRIED OUT DURING THE INTERNSHIP PERIOD
+🩺 TASKS THAT WERE TO BE CARRIED OUT DURING THE INTERNSHIP PERIOD
 
 We were tasked with:
 1. Gathering high-quality medical text datasets in multiple specialties.
@@ -31,6 +31,7 @@ Medical chatbots require domain-specific datasets to:
 🛠 CHALLENGES AND PROCESSES THAT OCCURED DURING THE INTERNSHIP
 
 STEP 1. DATA COLLECTION 
+
 We gathered four datasets across different medical specialties:
 1. CARDIOLOGY (CONGENITAL HEART DISEASE).docx
 2. ENDOCRINOLOGY.docx (part 1 & 2)
@@ -38,7 +39,7 @@ We gathered four datasets across different medical specialties:
 4. OTORHINOLARYNGOLOGY.docx (part 1-5)
 
 Each dataset was placed in the docs/ folder.
-Our data gathering report is also stored in the docs/ folder.
+Our data gathering and documentation report is also stored in the docs/ folder.
 
 🧪 . METHODS BY WHICH THE DATA WAS GATHERED:
 
@@ -49,7 +50,7 @@ Cross-verified data across sources.
 Extracted:
 Definitions, symptoms, causes, risk factors, diagnosis, treatment, prevention, FAQs, epidemiology, prevention, complications.
 
-💾 File Format and Size of Microsoft Word .docx that were created during the period of this internship which was later converted to .txt for model integration. They include:
+💾 File Format and Size of the Microsoft Word .docx that were created during the period of this internship which was later converted to .txt for model integration. They include:
 1. ENDOCRINOLOGY Part 1.docx - 5.3MB
 2. ENDOCRINOLOGY Part 2.docx - 721KB
 3. Ophthalmology (EYE AND VISION).docx - 6.7MB
@@ -100,12 +101,12 @@ CHALLENGES AND THE SOLUTIONS
 3. Tokenizer padding issues: Fixed by setting pad_token for LLaMA-based models.
 4. Loss computation errors: Solved by adding labels during tokenization.
 
-📚 Reliable Sources Used for Data Gathering Mayo Clinic:
+📚 RELIABLE SOURCES THAT WERE USED TO GATHER DATA:
 1. PubMed Central (PMC)
 2. National Institutes of Health (NIH)
 3. World Health Organization (WHO)
 4. Mayo Clinic
-5. Clinical guidelines and educational materials from National Institute of Health (NIH, etc.
+5. Clinical guidelines and educational materials from National Institute of Health (NIH, etc.)
 6. Additional reputable medical platforms including Medscape and Cleveland Clinic were used
 
 📊 Outcome – Skills & Discoveries
@@ -118,12 +119,12 @@ During this project, we gained hands-on experience in:
 5. Using Google colab when necessary.
 6. Building interactive chatbot interfaces with Gradio.
 
-Key discovery:
+KEY DISCOVERIES DURING THE CHATBOT BUILDING PROCESSES
 
 Training even small LLMs like Mistral.ai and ollama models on CPU is possible but very very slow —
 on our test machine (Intel Core i5-8300), fine-tuning larger models could take days, while smaller models (1–3B parameters) could train in a few hours while using google colab.
 
-📂 Repository Structure
+📂 STRUCTURE OF THE GITHUB REPOSITORY
 
 Text/ # Raw medical datasets
 
@@ -133,8 +134,9 @@ docs/ # Data gathering report and supporting docs
 
 README.md # Main repository summary
 
-🙏 Acknowledgements
+🙏 ACKNOWLEDGEMENTS
+
 A special thanks to OMEIFEI DIGITAL GROUP OF COMPANIES for providing this internship opportunity, the guidance, and the resources to enable me improve my knowledge base.
 
 About:
-This medical chatbot offers non-critical advice when made aware of patients symptoms
+The pediatric pulmonology medical chatbot that was built is meant to offer non-critical advice when made aware of patients symptoms, and answer any questions related pediatric pulmonology.
