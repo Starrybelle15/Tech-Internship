@@ -4,7 +4,7 @@ GENERAL 📌 OVERVIEW OF THE INTERNSHIP TASKS
 
 This GitHub repository contains a compilation of all the work completed by Team Four during our 3-months internship period with OMEIFEI DIGITAL GROUP OF COMPANIES.
 
-FOCUS OF THE INTERNSHIP
+FOCUS OF THE INTERNSHIP PROGRAM
 
 One of our main focus during the period of the intership was medically related data gathering; 
 We also went through the process of building a chatbot which was meant to answer questions and give non-critical advice, the model was fine-tuned to enable it respond better to questions asked.
@@ -13,7 +13,7 @@ This GitHub repository has an inclusion of the following:
 2. Data processing notebooks, which also includes a document (.docx) to text (.txt) converter 
 3. Documentation of our entire research process, from the first data gathering task to the build of the chatbot.
 
-🩺 TASKS THAT WERE GIVEN DURING THE INTERNSHIP
+🩺 TASKS THAT WERE GIVEN TO BE CARRIED OUT DURING THE INTERNSHIP PERIOD
 
 We were tasked with:
 1. Gathering high-quality medical text datasets in multiple specialties.
@@ -21,7 +21,7 @@ We were tasked with:
 3. Experimenting with fine-tuning large language models (LLMs) to create non-critical medical chatbots.
 4. Documenting our data gathering process and findings.
 
-💡 DATA-GATHERING
+💡 DATA-GATHERING TASKS
 
 Medical chatbots require domain-specific datasets to:
 1. Answer questions accurately within their field.
@@ -30,15 +30,35 @@ Medical chatbots require domain-specific datasets to:
 
 🛠 CHALLENGES AND PROCESSES THAT OCCURED DURING THE INTERNSHIP
 
-1. Data Collection
+STEP 1. DATA COLLECTION 
 We gathered four datasets across different medical specialties:
 1. CARDIOLOGY (CONGENITAL HEART DISEASE).docx
 2. ENDOCRINOLOGY.docx (part 1 & 2)
 3. OPHTHALMOLOGY.docx
 4. OTORHINOLARYNGOLOGY.docx (part 1-5)
 
-Each dataset was placed in the Datasets/ folder.
-Our data gathering report is stored in the Documentation/ folder.
+Each dataset was placed in the docs/ folder.
+Our data gathering report is also stored in the docs/ folder.
+
+🧪 . METHODS BY WHICH THE DATA WAS GATHERED:
+
+Keywords: definition, epidemiology, causes, risk factors, etc of the various diseases
+Selected: Review articles, meta-analyses, clinical practice guidelines, and patient education content.
+Cross-verified data across sources.
+
+Extracted:
+Definitions, symptoms, causes, risk factors, diagnosis, treatment, prevention, FAQs, epidemiology, prevention, complications.
+
+💾 File Format and Size of Microsoft Word .docx that were created during the period of this internship which was later converted to .txt for model integration. They include:
+1. ENDOCRINOLOGY Part 1.docx - 5.3MB
+2. ENDOCRINOLOGY Part 2.docx - 721KB
+3. Ophthalmology (EYE AND VISION).docx - 6.7MB
+4. OTORHINOLARYNGOLOGY.docx - 4.9MB
+5. OTORHINOLARYNGOLOGY Part 2.docx - 4.7MB (might be heavier)
+6. OTORHINOLARYNGOLOGY Part 3.docx - 4.6MB
+7. OTORHINOLARYNGOLOGY Part 4.docx - 4MB
+8. OTORHINOLARYNGOLOGY Part 5.docx - 126KB
+9. Team 4 Congenital heart diseases.docx - 2.5MB
 
 CHALLENEGS THAT WERE FACED DURING THE GATHERING PROCESS OF THE AFORE MENTIONED DATASETS:
 
@@ -62,7 +82,7 @@ We:
 5. Standardized terminology and diagnostic definitions across all datasets to improve consistency.
 6. Focused on patient-friendly summaries without losing medical accuracy.
 
-THE PROCESS OF DATA-PREPROCESSING
+STEP 2. DATA PREPROCESSING
 
 We:
 1. Converted .docx datasets into plain text.
@@ -87,26 +107,6 @@ CHALLENGES AND THE SOLUTIONS
 4. Mayo Clinic
 5. Clinical guidelines and educational materials from National Institute of Health (NIH, etc.
 6. Additional reputable medical platforms including Medscape and Cleveland Clinic were used
-
-🧪 2. METHODS BY WHICH THE DATA WAS GATHERED:
-
-Keywords: definition, epidemiology, causes, risk factors, etc of the various diseases
-Selected: Review articles, meta-analyses, clinical practice guidelines, and patient education content.
-Cross-verified data across sources.
-
-Extracted:
-Definitions, symptoms, causes, risk factors, diagnosis, treatment, prevention, FAQs, epidemiology, prevention, complications.
-
-💾 File Format and Size of Microsoft Word .docx that were created during the period of this internship which was later converted to .txt for model integration. They include:
-1. ENDOCRINOLOGY Part 1.docx - 5.3MB
-2. ENDOCRINOLOGY Part 2.docx - 721KB
-3. Ophthalmology (EYE AND VISION).docx - 6.7MB
-4. OTORHINOLARYNGOLOGY.docx - 4.9MB
-5. OTORHINOLARYNGOLOGY Part 2.docx - 4.7MB (might be heavier)
-6. OTORHINOLARYNGOLOGY Part 3.docx - 4.6MB
-7. OTORHINOLARYNGOLOGY Part 4.docx - 4MB
-8. OTORHINOLARYNGOLOGY Part 5.docx - 126KB
-9. Team 4 Congenital heart diseases.docx - 2.5MB
 
 📊 Outcome – Skills & Discoveries
 
