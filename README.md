@@ -1,7 +1,10 @@
 IDEAS/OMEIFE INTERNSHIP - TEAM FOUR 
 
-GENERAL 📌 OVERVIEW 
+GENERAL 📌 OVERVIEW OF THE INTERNSHIP TASKS
+
 This GitHub repository contains a compilation of all the work completed by Team Four during our 3-months internship period with OMEIFEI DIGITAL GROUP OF COMPANIES.
+
+FOCUS OF THE INTERNSHIP
 
 One of our main focus during the period of the intership was medically related data gathering; 
 We also went through the process of building a chatbot which was meant to answer questions and give non-critical advice, the model was fine-tuned to enable it respond better to questions asked.
@@ -10,20 +13,23 @@ This GitHub repository has an inclusion of the following:
 2. Data processing notebooks, which also includes a document (.docx) to text (.txt) converter 
 3. Documentation of our entire research process, from the first data gathering task to the build of the chatbot.
 
-🩺 Internship Task
+🩺 TASKS THAT WERE GIVEN DURING THE INTERNSHIP
+
 We were tasked with:
 1. Gathering high-quality medical text datasets in multiple specialties.
 2. Preprocessing and cleaning these datasets for machine learning.
 3. Experimenting with fine-tuning large language models (LLMs) to create non-critical medical chatbots.
 4. Documenting our data gathering process and findings.
 
-💡 Purpose of Data Gathering
+💡 DATA-GATHERING
+
 Medical chatbots require domain-specific datasets to:
 1. Answer questions accurately within their field.
 2. Offer safe, non-critical advice and guidance.
 3. Identify cases that require escalation to a doctor. Our goal was to collect specialized datasets so future AI models can give clear, factual, and patient-friendly responses.
 
-🛠 Process & Challenges
+🛠 CHALLENGES AND PROCESSES THAT OCCURED DURING THE INTERNSHIP
+
 1. Data Collection
 We gathered four datasets across different medical specialties:
 1. CARDIOLOGY (CONGENITAL HEART DISEASE).docx
