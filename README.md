@@ -88,7 +88,8 @@ CHALLENGES AND THE SOLUTIONS
 5. Clinical guidelines and educational materials from National Institute of Health (NIH, etc.
 6. Additional reputable medical platforms including Medscape and Cleveland Clinic were used
 
-🧪 2. Methodology Used to gather the data:
+🧪 2. METHODS BY WHICH THE DATA WAS GATHERED:
+
 Keywords: definition, epidemiology, causes, risk factors, etc of the various diseases
 Selected: Review articles, meta-analyses, clinical practice guidelines, and patient education content.
 Cross-verified data across sources.
@@ -108,6 +109,7 @@ Definitions, symptoms, causes, risk factors, diagnosis, treatment, prevention, F
 9. Team 4 Congenital heart diseases.docx - 2.5MB
 
 📊 Outcome – Skills & Discoveries
+
 During this project, we gained hands-on experience in:
 1. Data collection & preprocessing for NLP.
 2. Dataset formatting for instruction-based fine-tuning.
@@ -122,9 +124,13 @@ Training even small LLMs like Mistral.ai and ollama models on CPU is possible bu
 on our test machine (Intel Core i5-8300), fine-tuning larger models could take days, while smaller models (1–3B parameters) could train in a few hours while using google colab.
 
 📂 Repository Structure
+
 Text/ # Raw medical datasets
+
 Code/ # Jupyter notebooks containing the entire training lifecyle of the model
+
 docs/ # Data gathering report and supporting docs
+
 README.md # Main repository summary
 
 🙏 Acknowledgements
