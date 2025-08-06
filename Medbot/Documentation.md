@@ -62,6 +62,7 @@ Why Gradio?:
 1. Easy interface for non-developers
 2. Instant deployment in notebooks
 3. Native support for markdown & chat history
+
 These are some of the reasons I chose to use gradio for the interface of the chatbot.
 
 6. 🤗 DEPLOYMENT ON HUGGING FACE SPACES
@@ -85,6 +86,7 @@ Limitations:
 1. Only recognizes predefined conditions.
 2. No real-time symptom analysis.
 3. Does not support multi-turn complex reasoning.
+
 These are some of the limitations and ethical considerations of the medical chatbot.
 
 8. 📈 FUTURE IMPROVEMENTS I PLAN ON MAKING TO THE CHATBOT:
