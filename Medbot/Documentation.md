@@ -30,11 +30,12 @@ Categorized into:
 2. symptoms
 3. red_flags
 4. advice
-These are soem of the categories that the dataset was divided into.
+
+These are some of the categories that the dataset was divided into.
 
 3. 🧠 MODEL ARCHITECTURE
 
-Model Used:
+Models Used:
 1. spaCy TextCategorizer (for intent detection)
 2. Rule-based Classifier (fallback)
 
