@@ -65,7 +65,7 @@ Why Gradio?:
 
 These are some of the reasons I chose to use gradio for the interface of the chatbot.
 
-6. 🤗 DEPLOYMENT ON HUGGING FACE SPACES
+5. 🤗 DEPLOYMENT ON HUGGING FACE SPACES
 
 Why Hugging Face Spaces?:
 1. Free hosting for AI demos
@@ -75,7 +75,7 @@ Why Hugging Face Spaces?:
 The chatbot is now live at:
 link to huggingface repo: https://huggingface.co/spaces/QueenS5Ella/Royalty
 
-7. 🛡️ LIMITATIONS AND ETHICAL CONSIDERATIONS
+6. 🛡️ LIMITATIONS AND ETHICAL CONSIDERATIONS
 
 Not a Medical Device:
 1. This chatbot does not provide diagnoses.
@@ -89,13 +89,17 @@ Limitations:
 
 These are some of the limitations and ethical considerations of the medical chatbot.
 
-8. 📈 FUTURE IMPROVEMENTS I PLAN ON MAKING TO THE CHATBOT:
+7. 📈 FUTURE IMPROVEMENTS I PLAN ON MAKING TO THE CHATBOT:
+
+These are some of the improvements I plan on making to the chatbot.
 1. Integration with OpenAI GPT or a fine-tuned LLM for better generalization.
 2. Voice interface for accessibility.
 3. Rich UI with links to trusted sources (e.g., AAP, Mayo Clinic).
 4. Expand to other pediatric specialties (e.g., cardiology, neurology).
 
-9. 👨‍🔬 SAMPLE OF AN INTERACTION WITH THE CHATBOT
+Note: Most of these improvements might not be carried out, but these are what I have in mind to do.
+
+8. 👨‍🔬 SAMPLE OF AN INTERACTION WITH THE CHATBOT
 User: My 2-year-old has a persistent cough and wheezing.
 
 Bot: Possible Condition: Asthma (Confidence: 0.88)
