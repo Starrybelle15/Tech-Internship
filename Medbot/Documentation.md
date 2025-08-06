@@ -10,7 +10,7 @@ To develop a conversational AI assistant that provides informative, medically re
 
 Data Source:
 The chatbot was trained on a set of plain-text .txt files containing:
-1.Disease definitions
+1. Disease definitions
 2. Symptoms
 3. Red flags
 4. Treatment guidelines
@@ -30,6 +30,7 @@ Categorized into:
 2. symptoms
 3. red_flags
 4. advice
+These are soem of the categories that the dataset was divided into.
 
 3. 🧠 MODEL ARCHITECTURE
 
@@ -51,7 +52,7 @@ Custom categories for:
 4. Cystic Fibrosis
 5. Others
 
-Intent Prediction:
+INTENT PREDICTION:
 Input text → spaCy → TextCategorizer → Predicted condition with confidence score
 
 4. 🌐 INTEGRATION OF GRADIO IN THE CHATBOT
@@ -60,6 +61,7 @@ Why Gradio?:
 1. Easy interface for non-developers
 2. Instant deployment in notebooks
 3. Native support for markdown & chat history
+These are some of the reasons I chose to use gradio for the interface of the chatbot.
 
 6. 🤗 DEPLOYMENT ON HUGGING FACE SPACES
 
@@ -82,8 +84,9 @@ Limitations:
 1. Only recognizes predefined conditions.
 2. No real-time symptom analysis.
 3. Does not support multi-turn complex reasoning.
+These are some of the limitations and ethical considerations of the medical chatbot.
 
-8. 📈 FUTURE IMPROVEMENT I PLAN ON MAKING TO THE CHATBOT:
+8. 📈 FUTURE IMPROVEMENTS I PLAN ON MAKING TO THE CHATBOT:
 1. Integration with OpenAI GPT or a fine-tuned LLM for better generalization.
 2. Voice interface for accessibility.
 3. Rich UI with links to trusted sources (e.g., AAP, Mayo Clinic).
@@ -109,7 +112,7 @@ General Advice:
 1. Avoid known allergens
 2. Ensure medication adherence
 
-✅ Conclusion
+✅ CONCLUSION
 
 This chatbot only serves as a helpful assistant for parents, caregivers, or students learning about pediatric lung conditions. 
 
